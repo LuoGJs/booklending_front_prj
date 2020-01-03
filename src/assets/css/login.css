@@ -1,0 +1,293 @@
+.login_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("http://images.luogj.cn/bg1.jpg");
+}
+
+.auth_page_wrappers {
+  width: 630px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Microsoft YaHei';
+  font-size: 13px;
+  color: #676A6C;
+  position: relative;
+}
+
+.auth_page_wrapper {
+  width: 960px;
+  margin: 20px auto;
+  padding: 0;
+  font-family: 'Microsoft YaHei';
+  font-size: 13px;
+  color: #676A6C;
+  position: relative;
+}
+
+.auth_login_content {
+  margin-top: calc(50vh - 230px);
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.auth_icon_yzm {
+  background: url("http://images.luogj.cn/yanzm.png") no-repeat;
+}
+
+.auth_icon_shouji {
+  background: url("http://images.luogj.cn/shouji.png") no-repeat;
+}
+
+.auth_icon_user {
+  background: url("http://images.luogj.cn/yonhuming.png") no-repeat;
+}
+
+.auth_icon_pwd {
+  background: url("http://images.luogj.cn/mima.png") no-repeat;
+}
+
+.auth_icon_bar {
+  background: url("http://images.luogj.cn/icons.png") -43px -73px no-repeat;
+}
+
+.auth_login_content .auth_login_right {
+  width: 100%;
+  opacity: 1;
+}
+
+.auth_tab {
+  width: 360px;
+  float: left;
+  padding: 5px 20px 5px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#login_container {
+  margin-top: 130px;
+  margin-left: -44px;
+}
+
+.ewm_wrap {
+
+  width: 200px;
+  color: #fff;
+  font-size: 18px;
+  float: right;
+  text-align: center;
+
+}
+
+.ewm_wrap img {
+  width: 180px;
+  height: 180px;
+  margin-top: 100px;
+  margin-right: 20px;
+}
+
+.auth_tab_links li {
+  width: 50%;
+  display: block;
+  float: left;
+  text-align: center;
+  line-height: 42px;
+  cursor: pointer;
+
+}
+
+.auth_tab_links div {
+  position: relative;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.auth_tab_links ul {
+  overflow: hidden;
+  margin-top: 20px;
+  width: calc(100% - 60px);
+
+
+}
+
+.auth_tab_links div img {
+  height: 80%;
+  width: 80%;
+  margin-left: 0px;
+}
+
+.auth_tab_links div span {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  margin-left: 10px;
+}
+
+.auth_tab_links li span {
+  color: #cdcdcd;
+  font-size: 16px;
+}
+
+.auth_tab_links li.selected {
+  border-bottom: 1px solid #fff;
+}
+
+.auth_tab_links li.selected span {
+  font-size: 16px;
+  color: #fff;
+  vertical-align: bottom;
+}
+
+.auth_tab_content {
+  padding: 10px 35px 22px 35px;
+  min-height: 205px;
+}
+
+.auth_tab_content_item {
+  position: relative;
+
+}
+
+.auth_tab_content_item p {
+  margin-bottom: 15px;
+  position: relative;
+  width: 100%;
+  background: #fff;
+  text-align: left;
+  border-radius: 4px;
+}
+
+.auth_tab_content_item p label {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.auth_icon {
+  display: inline-block;
+  width: 22px;
+  height: 28px;
+  position: absolute;
+  left: 5px;
+  top: 12px;
+  z-index: 1000;
+}
+
+.auth_input {
+  width: 85%;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 28px;
+  font-family: "Microsoft Yahei";
+  border: 0;
+  font-size: 14px;
+  color: #878787;
+}
+
+.footer {
+  display: inline-block;
+  width: 100%;
+  line-height: 25px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a.n1 {
+  position: absolute;
+  left: 0;
+}
+
+.footer a.n3 {
+  position: absolute;
+  right: 0;
+}
+.footer a.n3:hover{
+  cursor: pointer;
+}
+
+.auth_input:focus {
+  outline: none;
+}
+
+.auth_login_btn {
+  color: #fff;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #90138b;
+  border-color: #90138b;
+}
+
+.primary:hover {
+  background: #90138b;
+  opacity: .9;
+  filter: Alpha(opacity=90);
+}
+
+.abs_right {
+  position: absolute;
+  right: 0;
+}
+
+.full_width {
+  display: block;
+}
+
+.auth_error {
+  position: absolute;
+  color: #ED5565;
+  font-size: 12px;
+  top: 33px;
+  left: 45px;
+}
+
+.captcha-img {
+  width: 74px;
+  height: 34px;
+  vertical-align: top;
+  position: absolute;
+  right: 9px;
+  top: 4px;
+  z-index: 1000;
+}
+
+.captcha-input {
+  width: 80%;
+}
+
+.dynamicCode {
+  width: 90px;
+  background: none;
+  color: #90138B;
+  padding: 6px 8px;
+  margin-top: 0px;
+  cursor: pointer;
+  font-family: 'Microsoft YaHei';
+}
+
+.login-ul-li-full {
+  width: 100% !important;
+}
